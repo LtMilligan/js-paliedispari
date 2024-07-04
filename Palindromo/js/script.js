@@ -7,3 +7,10 @@ let parola = prompt('Inserisci una parola');
 // Dichiaro una variabile per assegnarla successivamente con il reverse della parola scelta
 
 let reverseParola
+
+// Dichiaro una funzione che ha come argomento la variabile della parola scelta dall'utente
+
+function reverseString(parola) {
+    // Faccio il reverse della parola e la comparo con un IF alla parola scelta. Se uguale mando a schermo che la parola è palindroma, altrimenti con ELSE mando che non lo è.
+
+}
