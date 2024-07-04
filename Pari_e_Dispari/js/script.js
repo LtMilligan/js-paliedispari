@@ -21,6 +21,8 @@ let somma = numeroUser + numbAI
 
 // Dichiaro un flag per il numero PARI impostandolo a TRUE
 
+let numeroPari = true
+
 // Creo una funzione per un IF per cambiare il flag in FALSE nel caso che la somma dei numeri sia DISPARI
 
 //Con un IF dichiaro le 2 condizioni di vittoria dell'utente, ovvero che lui abbia scelto PARI e che il flag sia TRUE oppure che lui abbia scelto DISPARI e che il flag sia FALSE, altrimenti nell ELSE c'è la vittoria del PC.
