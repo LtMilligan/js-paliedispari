@@ -10,6 +10,10 @@ let numeroUser = parseInt(prompt('Scegli un numero da 1 a 5'))
 
 //Creo una funzione il RETURN un numero generato randomicamente da 1 a 5 da assegnare successivamente come numero del computer
 
+function numeroComputer () {
+    return Math.floor(Math.random() * 5 + 1)
+}
+
 // Dichiaro una variabile somma per andare a sommare il numero dell'utente a quello randomico del PC
 
 // Dichiaro un flag per il numero PARI impostandolo a TRUE
