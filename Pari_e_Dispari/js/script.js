@@ -6,6 +6,8 @@ let pariDispari = prompt('Scegli "pari" o "dispari"')
 
 //Dichiaro una variabile con un prompt per far inserire un numero all'utente da 1 a 5 facendo il parseInt del dato per averlo come intero e non come stringa
 
+let numeroUser = parseInt(prompt('Scegli un numero da 1 a 5'))
+
 //Creo una funzione il RETURN un numero generato randomicamente da 1 a 5 da assegnare successivamente come numero del computer
 
 // Dichiaro una variabile somma per andare a sommare il numero dell'utente a quello randomico del PC
