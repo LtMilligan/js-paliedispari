@@ -16,6 +16,9 @@ function numeroComputer () {
 
 // Dichiaro una variabile somma per andare a sommare il numero dell'utente a quello randomico del PC
 
+let numbAI = numeroComputer()
+let somma = numeroUser + numbAI
+
 // Dichiaro un flag per il numero PARI impostandolo a TRUE
 
 // Creo una funzione per un IF per cambiare il flag in FALSE nel caso che la somma dei numeri sia DISPARI
