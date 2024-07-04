@@ -12,5 +12,12 @@ let reverseParola
 
 function reverseString(parola) {
     // Faccio il reverse della parola e la comparo con un IF alla parola scelta. Se uguale mando a schermo che la parola è palindroma, altrimenti con ELSE mando che non lo è.
-
+    reverseParola = parola.split('').reverse().join('')
+    if (parola === reverseParola) {
+        alert('La parola è palindroma')
+    }else {
+        alert('La parola NON è palindroma')
+    }
 }
+
+reverseString(parola)
