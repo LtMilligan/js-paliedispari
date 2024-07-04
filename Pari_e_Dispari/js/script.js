@@ -25,4 +25,12 @@ let numeroPari = true
 
 // Creo una funzione per un IF per cambiare il flag in FALSE nel caso che la somma dei numeri sia DISPARI
 
+function comparazione(somma) {
+    if (somma % 2 !== 0) {
+        numeroPari = false
+    }
+}
+
+comparazione(somma)
+
 //Con un IF dichiaro le 2 condizioni di vittoria dell'utente, ovvero che lui abbia scelto PARI e che il flag sia TRUE oppure che lui abbia scelto DISPARI e che il flag sia FALSE, altrimenti nell ELSE c'è la vittoria del PC.
